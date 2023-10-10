@@ -17,7 +17,7 @@ public class SignalController {
     @PostMapping(value = "/execute/{signal}")
     @ResponseStatus(HttpStatus.OK)
     void executeSignal(@PathVariable("signal") int signal){
-        signalService.runSignalConfig(signal);
+        signalService.handleSignal(signal);
     }
 
 }

@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SignalService {
-    public void runSignalConfig(int signal){
+    public void handleSignal(int signal){
         System.out.println("From signal service " + signal);
     }
 
