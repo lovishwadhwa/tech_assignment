@@ -2,8 +2,16 @@ app:
   data:
     signals:
       1:
-        - something
+        - setUp
+        - setAlgoParam 1 60
+        - performCalc
+        - submitToMarket
       2:
-        - something
+        - reverse
+        - setAlgoParam 1 80
+        - submitToMarket
       3:
-        - something with spaces
+        - setAlgoParam 1 90
+        - setAlgoParam 2 15
+        - performCalc
+        - submitToMarket
