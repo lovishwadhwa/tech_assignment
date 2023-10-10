@@ -1,0 +1,9 @@
+app:
+  data:
+    signals:
+      1:
+        - something
+      2:
+        - something
+      3:
+        - something with spaces
