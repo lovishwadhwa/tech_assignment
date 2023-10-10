@@ -7,12 +7,16 @@ import java.util.List;
 import java.util.Map;
 
 @Component
-@ConfigurationProperties(prefix = "app.data")
+@ConfigurationProperties(prefix = "app")
 public class SignalConfig {
     private Map<String, List<String>> signals;
 
     // Getters and setters
 
+    /**
+     * Reads the signals config from the signals.yaml file
+     * @return
+     */
     public Map<String, List<String>> getSignals() {
         return signals;
     }

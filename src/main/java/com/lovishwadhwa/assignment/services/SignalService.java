@@ -54,6 +54,10 @@ public class SignalService {
         });
     }
 
+    /**
+     * handles the fetching and execution of steps involved with the signal
+     * @param signal
+     */
 
     public void handleSignal(Integer signal){
         try{

@@ -1,17 +1,4 @@
-app:
-  data:
-    signals:
-      1:
-        - SETUP
-        - SET_PARAM 1 60
-        - PERFORM_CAL
-        - SUBMIT
-      2:
-        - REVERSE
-        - SET_PARAM 1 80
-        - SUBMIT
-      3:
-        - SET_PARAM 1 90
-        - SET_PARAM 2 15
-        - PERFORM_CAL
-        - SUBMIT
+spring:
+  config:
+    import:
+      - classpath:signals.yaml
