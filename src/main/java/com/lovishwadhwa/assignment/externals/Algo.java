@@ -1,5 +1,8 @@
 package com.lovishwadhwa.assignment.externals;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class Algo {
     public void doAlgo() {
         System.out.println("doAlgo");

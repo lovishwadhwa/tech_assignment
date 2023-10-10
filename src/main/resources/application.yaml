@@ -2,16 +2,16 @@ app:
   data:
     signals:
       1:
-        - setUp
-        - setAlgoParam 1 60
-        - performCalc
-        - submitToMarket
+        - SETUP
+        - SET_PARAM 1 60
+        - PERFORM_CAL
+        - SUBMIT
       2:
-        - reverse
-        - setAlgoParam 1 80
-        - submitToMarket
+        - REVERSE
+        - SET_PARAM 1 80
+        - SUBMIT
       3:
-        - setAlgoParam 1 90
-        - setAlgoParam 2 15
-        - performCalc
-        - submitToMarket
+        - SET_PARAM 1 90
+        - SET_PARAM 2 15
+        - PERFORM_CAL
+        - SUBMIT

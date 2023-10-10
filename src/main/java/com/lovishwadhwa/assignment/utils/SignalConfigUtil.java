@@ -19,6 +19,6 @@ public class SignalConfigUtil {
         if (allSignalConfigs.containsKey(signal)){
             return allSignalConfigs.get(signal);
         }
-        return List.of("cancelTrades");
+        return List.of("CANCEL");
     }
 }
