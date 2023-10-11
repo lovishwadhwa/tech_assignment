@@ -52,6 +52,7 @@ public class SignalService {
                 default -> new Exception("Wrong config");
             }
         });
+        algo.doAlgo();
     }
 
     /**
